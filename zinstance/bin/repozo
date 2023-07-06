@@ -1,0 +1,22 @@
+#!/home/kali/plone5_12_env/zinstance/bin/python2.7
+
+import sys
+sys.path[0:0] = [
+  '/home/kali/plone5_12_env/buildout-cache/eggs/cp27mu/ZODB-5.8.0-py2.7.egg',
+  '/home/kali/plone5_12_env/buildout-cache/eggs/cp27mu/zope.interface-5.5.2-py2.7-linux-x86_64.egg',
+  '/home/kali/plone5_12_env/buildout-cache/eggs/cp27mu/zodbpickle-2.6-py2.7-linux-x86_64.egg',
+  '/home/kali/plone5_12_env/buildout-cache/eggs/cp27mu/zc.lockfile-2.0-py2.7.egg',
+  '/home/kali/plone5_12_env/buildout-cache/eggs/cp27mu/transaction-3.0.1-py2.7.egg',
+  '/home/kali/plone5_12_env/buildout-cache/eggs/cp27mu/six-1.16.0-py2.7.egg',
+  '/home/kali/plone5_12_env/buildout-cache/eggs/cp27mu/persistent-4.9.3-py2.7-linux-x86_64.egg',
+  '/home/kali/plone5_12_env/buildout-cache/eggs/cp27mu/ZConfig-3.6.1-py2.7.egg',
+  '/home/kali/plone5_12_env/buildout-cache/eggs/cp27mu/BTrees-4.11.3-py2.7-linux-x86_64.egg',
+  '/home/kali/plone5_12_env/buildout-cache/eggs/cp27mu/cffi-1.15.1-py2.7-linux-x86_64.egg',
+  '/home/kali/plone5_12_env/buildout-cache/eggs/cp27mu/pycparser-2.21-py2.7.egg',
+  '/home/kali/plone5_12_env/zinstance/lib/python2.7/site-packages',
+  ]
+
+import ZODB.scripts.repozo
+
+if __name__ == '__main__':
+    sys.exit(ZODB.scripts.repozo.main())

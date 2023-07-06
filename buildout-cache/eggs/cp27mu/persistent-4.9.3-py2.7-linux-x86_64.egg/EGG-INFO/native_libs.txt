@@ -1,0 +1,4 @@
+persistent/_ring.so
+persistent/_timestamp.so
+persistent/cPersistence.so
+persistent/cPickleCache.so

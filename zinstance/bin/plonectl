@@ -1,0 +1,13 @@
+#!/home/kali/plone5_12_env/zinstance/bin/python2.7
+
+import sys
+sys.path[0:0] = [
+  '/home/kali/plone5_12_env/buildout-cache/eggs/cp27mu/plone.recipe.unifiedinstaller-5.2b1-py2.7.egg',
+  '/home/kali/plone5_12_env/buildout-cache/eggs/cp27mu/zc.recipe.egg-2.0.7-py2.7.egg',
+  '/home/kali/plone5_12_env/zinstance/lib/python2.7/site-packages',
+  ]
+
+import plone.recipe.unifiedinstaller.ctl
+
+if __name__ == '__main__':
+    sys.exit(plone.recipe.unifiedinstaller.ctl.main(server=None, clients=['instance'], location=r'/home/kali/plone5_12_env/zinstance', bin_directory=r'/home/kali/plone5_12_env/zinstance/bin', file_storage=r'/home/kali/plone5_12_env/zinstance/var/filestorage/Data.fs'))

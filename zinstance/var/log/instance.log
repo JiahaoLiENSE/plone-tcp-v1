@@ -1,0 +1,1603 @@
+2023-06-27 18:56:59,001 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-27 18:57:10,430 INFO    [ZODB.blob:356][MainThread] (53536) Blob directory `/home/kali/plone5_12_env/zinstance/var/blobstorage` is unused and has no layout marker set. Selected `bushy` layout. 
+2023-06-27 18:57:10,431 INFO    [ZODB.blob:356][MainThread] (53536) Blob temporary directory '/home/kali/plone5_12_env/zinstance/var/blobstorage/tmp' does not exist. Created new directory.
+2023-06-27 18:57:30,135 INFO    [Zope:45][MainThread] Ready to handle requests
+2023-06-28 22:41:19,408 INFO    [Products.CMFPlone:261][waitress-2] CSRF protection disabled on initial site creation
+2023-06-28 22:41:19,522 INFO    [Products.GenericSetup.tool:1430][waitress-2] Importing profile profile-Products.CMFPlone:plone with dependency strategy upgrade.
+2023-06-28 22:41:19,523 INFO    [Products.GenericSetup.tool:1469][waitress-2] Applying main profile profile-Products.CMFPlone:plone
+2023-06-28 22:41:19,526 INFO    [Products.GenericSetup.tool:924][waitress-2] Profile upgrade versions purged.
+2023-06-28 22:41:19,595 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:19,609 INFO    [GenericSetup.properties:100][waitress-2] Site properties imported.
+2023-06-28 22:41:19,661 INFO    [GenericSetup.toolset:100][waitress-2] Toolset imported.
+2023-06-28 22:41:19,666 INFO    [GenericSetup.componentregistry:100][waitress-2] Adapters purged.
+2023-06-28 22:41:19,667 INFO    [GenericSetup.componentregistry:100][waitress-2] Subscribers purged.
+2023-06-28 22:41:19,667 INFO    [GenericSetup.componentregistry:100][waitress-2] Utilities purged.
+2023-06-28 22:41:19,668 INFO    [GenericSetup.componentregistry:100][waitress-2] Adapters registered.
+2023-06-28 22:41:19,671 WARNING [GenericSetup.componentregistry:100][waitress-2] The object None was not found, while trying to register an utility. The provided object definition was portal_metadata. The site used was: <PloneSite at /Plone>
+2023-06-28 22:41:19,674 WARNING [GenericSetup.componentregistry:100][waitress-2] The object None was not found, while trying to register an utility. The provided object definition was portal_syndication. The site used was: <PloneSite at /Plone>
+2023-06-28 22:41:19,675 WARNING [GenericSetup.componentregistry:100][waitress-2] The object None was not found, while trying to register an utility. The provided object definition was portal_undo. The site used was: <PloneSite at /Plone>
+2023-06-28 22:41:19,718 INFO    [GenericSetup.componentregistry:100][waitress-2] Utilities registered.
+2023-06-28 22:41:19,732 INFO    [GenericSetup.skins:100][waitress-2] Skins tool imported.
+2023-06-28 22:41:19,877 INFO    [GenericSetup.actions:100][waitress-2] Actions tool imported.
+2023-06-28 22:41:19,884 INFO    [GenericSetup.controlpanel:100][waitress-2] Control panel imported.
+2023-06-28 22:41:19,887 INFO    [GenericSetup.types:100][waitress-2] Types tool imported.
+2023-06-28 22:41:19,924 INFO    [GenericSetup.types:100][waitress-2] 'Discussion Item' type info imported.
+2023-06-28 22:41:19,926 INFO    [GenericSetup.types:100][waitress-2] 'Plone Site' type info imported.
+2023-06-28 22:41:19,929 INFO    [GenericSetup.types:100][waitress-2] 'TempFolder' type info imported.
+2023-06-28 22:41:19,930 INFO    [GenericSetup.repositorytool:100][waitress-2] Nothing to import.
+2023-06-28 22:41:19,930 INFO    [GenericSetup.plone.app.registry:100][waitress-2] Cannot find registry
+2023-06-28 22:41:19,930 INFO    [GenericSetup.bundles:100][waitress-2] Cannot find registry
+2023-06-28 22:41:19,933 INFO    [GenericSetup.mailhost:100][waitress-2] Mailhost imported.
+2023-06-28 22:41:19,952 INFO    [GenericSetup.memberdata:100][waitress-2] Member data tool imported.
+2023-06-28 22:41:19,952 INFO    [GenericSetup.memberdata:100][waitress-2] MemberData tool imported.
+2023-06-28 22:41:19,983 INFO    [GenericSetup.catalog:100][waitress-2] Catalog imported.
+2023-06-28 22:41:19,991 INFO    [GenericSetup.workflow:100][waitress-2] Workflow tool imported.
+2023-06-28 22:41:20,051 INFO    [GenericSetup.contenttypes:100][waitress-2] Content type registry imported.
+2023-06-28 22:41:20,054 INFO    [GenericSetup.propertiestool:100][waitress-2] Properties tool imported.
+2023-06-28 22:41:20,057 INFO    [GenericSetup.plone.app.viewletmanager:100][waitress-2] Imported.
+2023-06-28 22:41:20,058 INFO    [Products.GenericSetup.tool:1430][waitress-2] Importing profile profile-Products.CMFPlone:dependencies with dependency strategy upgrade.
+2023-06-28 22:41:20,058 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-Products.CMFFormController:CMFFormController
+2023-06-28 22:41:20,301 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:20,314 INFO    [GenericSetup.toolset:100][waitress-2] Toolset imported.
+2023-06-28 22:41:20,316 INFO    [GenericSetup.repositorytool:100][waitress-2] Nothing to import.
+2023-06-28 22:41:20,317 INFO    [GenericSetup.plone.app.registry:100][waitress-2] Cannot find registry
+2023-06-28 22:41:20,317 INFO    [GenericSetup.bundles:100][waitress-2] Cannot find registry
+2023-06-28 22:41:20,436 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-Products.MimetypesRegistry:MimetypesRegistry
+2023-06-28 22:41:20,458 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:20,668 INFO    [GenericSetup.toolset:100][waitress-2] Toolset imported.
+2023-06-28 22:41:20,669 INFO    [GenericSetup.componentregistry:100][waitress-2] Adapters registered.
+2023-06-28 22:41:20,670 INFO    [GenericSetup.componentregistry:100][waitress-2] Utilities registered.
+2023-06-28 22:41:20,671 INFO    [GenericSetup.repositorytool:100][waitress-2] Nothing to import.
+2023-06-28 22:41:20,672 INFO    [GenericSetup.plone.app.registry:100][waitress-2] Cannot find registry
+2023-06-28 22:41:20,672 INFO    [GenericSetup.bundles:100][waitress-2] Cannot find registry
+2023-06-28 22:41:20,736 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-Products.PortalTransforms:PortalTransforms
+2023-06-28 22:41:20,783 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:20,844 INFO    [GenericSetup.toolset:100][waitress-2] Toolset imported.
+2023-06-28 22:41:22,742 INFO    [GenericSetup.componentregistry:100][waitress-2] Adapters registered.
+2023-06-28 22:41:22,742 INFO    [GenericSetup.componentregistry:100][waitress-2] Utilities registered.
+2023-06-28 22:41:22,750 INFO    [GenericSetup.repositorytool:100][waitress-2] Nothing to import.
+2023-06-28 22:41:22,751 INFO    [GenericSetup.plone.app.registry:100][waitress-2] Cannot find registry
+2023-06-28 22:41:22,751 INFO    [GenericSetup.bundles:100][waitress-2] Cannot find registry
+2023-06-28 22:41:22,806 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-Products.CMFEditions:CMFEditions
+2023-06-28 22:41:22,870 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:22,875 INFO    [GenericSetup.toolset:100][waitress-2] Toolset imported.
+2023-06-28 22:41:22,876 INFO    [GenericSetup.componentregistry:100][waitress-2] Adapters registered.
+2023-06-28 22:41:22,877 INFO    [GenericSetup.componentregistry:100][waitress-2] Utilities registered.
+2023-06-28 22:41:22,879 INFO    [GenericSetup.skins:100][waitress-2] Skins tool imported.
+2023-06-28 22:41:22,899 INFO    [GenericSetup.:100][waitress-2] RepositoryTool settings imported.
+2023-06-28 22:41:22,900 INFO    [GenericSetup.plone.app.registry:100][waitress-2] Cannot find registry
+2023-06-28 22:41:22,900 INFO    [GenericSetup.bundles:100][waitress-2] Cannot find registry
+2023-06-28 22:41:22,905 INFO    [GenericSetup.catalog:100][waitress-2] Catalog imported.
+2023-06-28 22:41:22,943 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-Products.PlonePAS:PlonePAS
+2023-06-28 22:41:22,974 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:22,978 INFO    [GenericSetup.plone.app.registry:100][waitress-2] Cannot find registry
+2023-06-28 22:41:22,978 INFO    [GenericSetup.bundles:100][waitress-2] Cannot find registry
+2023-06-28 22:41:23,051 INFO    [PluggableAuthService.upgrade.replaceRootUserFolder:40][waitress-2] Capturing user info for admin
+
+2023-06-28 22:41:23,053 INFO    [PluggableAuthService.upgrade.replaceRootUserFolder:40][waitress-2] Translating user admin
+
+2023-06-28 22:41:23,053 INFO    [PluggableAuthService.upgrade.replaceRootUserFolder:40][waitress-2] Replaced root acl_users with PluggableAuthService
+
+2023-06-28 22:41:23,257 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,257 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,257 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone
+
+2023-06-28 22:41:23,258 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,259 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,259 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_setup
+
+2023-06-28 22:41:23,259 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,259 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,259 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/MailHost
+
+2023-06-28 22:41:23,259 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,260 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,260 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/caching_policy_manager
+
+2023-06-28 22:41:23,261 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,261 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,261 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/content_type_registry
+
+2023-06-28 22:41:23,262 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,262 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,262 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/error_log
+
+2023-06-28 22:41:23,262 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,263 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,263 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/plone_utils
+
+2023-06-28 22:41:23,263 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,263 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,263 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions
+
+2023-06-28 22:41:23,264 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,264 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,264 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/document_actions
+
+2023-06-28 22:41:23,264 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,265 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,265 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/document_actions/rss
+
+2023-06-28 22:41:23,265 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,265 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,265 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/document_actions/print
+
+2023-06-28 22:41:23,265 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,266 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,266 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/document_actions/extedit
+
+2023-06-28 22:41:23,266 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,266 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,266 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/site_actions
+
+2023-06-28 22:41:23,266 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,266 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,267 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/site_actions/sitemap
+
+2023-06-28 22:41:23,267 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,267 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,267 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/site_actions/accessibility
+
+2023-06-28 22:41:23,267 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,268 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,268 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/site_actions/contact
+
+2023-06-28 22:41:23,268 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,268 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,269 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/object
+
+2023-06-28 22:41:23,269 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,269 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,269 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/object/folderContents
+
+2023-06-28 22:41:23,270 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,270 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,270 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/object/history
+
+2023-06-28 22:41:23,270 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,270 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,271 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/object/local_roles
+
+2023-06-28 22:41:23,271 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,271 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,271 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/object/contentrules
+
+2023-06-28 22:41:23,271 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,271 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,271 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/object/syndication
+
+2023-06-28 22:41:23,272 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,272 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,272 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/object_buttons
+
+2023-06-28 22:41:23,272 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,272 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,272 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/object_buttons/cut
+
+2023-06-28 22:41:23,272 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,272 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,273 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/object_buttons/copy
+
+2023-06-28 22:41:23,273 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,273 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,273 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/object_buttons/paste
+
+2023-06-28 22:41:23,274 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,274 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,274 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/object_buttons/delete
+
+2023-06-28 22:41:23,274 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,274 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,274 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/object_buttons/rename
+
+2023-06-28 22:41:23,274 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,274 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,274 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/object_buttons/redirection
+
+2023-06-28 22:41:23,274 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,275 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,275 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/portal_tabs
+
+2023-06-28 22:41:23,275 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,275 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,276 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/portal_tabs/index_html
+
+2023-06-28 22:41:23,276 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,277 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,277 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/user
+
+2023-06-28 22:41:23,278 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,278 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,278 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/user/preferences
+
+2023-06-28 22:41:23,278 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,278 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,278 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/user/dashboard
+
+2023-06-28 22:41:23,279 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,279 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,279 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/user/login
+
+2023-06-28 22:41:23,279 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,279 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,279 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/user/join
+
+2023-06-28 22:41:23,280 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,280 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,280 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/user/undo
+
+2023-06-28 22:41:23,280 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,280 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,280 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/user/plone_setup
+
+2023-06-28 22:41:23,281 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,281 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,281 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_actions/user/logout
+
+2023-06-28 22:41:23,282 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,282 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,282 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_catalog
+
+2023-06-28 22:41:23,282 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,282 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,282 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_catalog/htmltext_lexicon
+
+2023-06-28 22:41:23,282 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,283 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,283 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_catalog/plaintext_lexicon
+
+2023-06-28 22:41:23,283 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,283 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,283 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_catalog/plone_lexicon
+
+2023-06-28 22:41:23,283 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,283 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,283 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_controlpanel
+
+2023-06-28 22:41:23,284 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,284 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,284 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_diff
+
+2023-06-28 22:41:23,284 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,284 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,284 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_groupdata
+
+2023-06-28 22:41:23,284 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,285 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,285 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_groups
+
+2023-06-28 22:41:23,285 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,285 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,286 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_memberdata
+
+2023-06-28 22:41:23,286 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,286 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,286 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_membership
+
+2023-06-28 22:41:23,286 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,286 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,286 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_migration
+
+2023-06-28 22:41:23,287 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,287 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,287 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_password_reset
+
+2023-06-28 22:41:23,287 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,287 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,287 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_properties
+
+2023-06-28 22:41:23,287 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,288 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,288 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_properties/navtree_properties
+
+2023-06-28 22:41:23,290 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,290 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,291 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_properties/site_properties
+
+2023-06-28 22:41:23,291 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,291 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,291 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_quickinstaller
+
+2023-06-28 22:41:23,292 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,292 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,293 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_quickinstaller/CMFFormController
+
+2023-06-28 22:41:23,293 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,294 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,295 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_quickinstaller/MimetypesRegistry
+
+2023-06-28 22:41:23,295 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,295 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,295 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_quickinstaller/PortalTransforms
+
+2023-06-28 22:41:23,296 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,296 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,298 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_quickinstaller/CMFEditions
+
+2023-06-28 22:41:23,298 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,299 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,300 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_registration
+
+2023-06-28 22:41:23,300 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,300 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,301 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_skins
+
+2023-06-28 22:41:23,303 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,304 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,305 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_skins/custom
+
+2023-06-28 22:41:23,307 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,307 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,307 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_skins/plone_form_scripts
+
+2023-06-28 22:41:23,307 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,307 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,308 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_skins/plone_images
+
+2023-06-28 22:41:23,321 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   -- Set savepoint at object # 100
+
+2023-06-28 22:41:23,322 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,322 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,322 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_skins/plone_prefs
+
+2023-06-28 22:41:23,323 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,323 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,323 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_skins/plone_scripts
+
+2023-06-28 22:41:23,323 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,324 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,324 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_skins/plone_templates
+
+2023-06-28 22:41:23,325 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,325 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,325 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_skins/plone_wysiwyg
+
+2023-06-28 22:41:23,326 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,326 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,326 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_skins/CMFEditions
+
+2023-06-28 22:41:23,327 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,327 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,327 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_types
+
+2023-06-28 22:41:23,328 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,328 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,328 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_types/Discussion Item
+
+2023-06-28 22:41:23,329 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,329 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,329 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_types/Plone Site
+
+2023-06-28 22:41:23,329 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,330 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,330 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_types/TempFolder
+
+2023-06-28 22:41:23,330 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,330 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,330 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_uidannotation
+
+2023-06-28 22:41:23,331 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,331 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,331 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_uidgenerator
+
+2023-06-28 22:41:23,331 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,331 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,331 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_uidhandler
+
+2023-06-28 22:41:23,332 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,332 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,332 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_url
+
+2023-06-28 22:41:23,333 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,333 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,333 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_view_customizations
+
+2023-06-28 22:41:23,333 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,333 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,334 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow
+
+2023-06-28 22:41:23,334 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,334 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,334 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/folder_workflow
+
+2023-06-28 22:41:23,335 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,335 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,335 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/folder_workflow/states/visible
+
+2023-06-28 22:41:23,335 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,335 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,335 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/folder_workflow/states/private
+
+2023-06-28 22:41:23,336 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,336 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,337 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/folder_workflow/states/published
+
+2023-06-28 22:41:23,337 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,337 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,337 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/folder_workflow/transitions/retract
+
+2023-06-28 22:41:23,338 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,338 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,338 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/folder_workflow/transitions/hide
+
+2023-06-28 22:41:23,338 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,338 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,339 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/folder_workflow/transitions/publish
+
+2023-06-28 22:41:23,339 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,339 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,339 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/folder_workflow/transitions/show
+
+2023-06-28 22:41:23,339 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,340 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,340 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/folder_workflow/variables/action
+
+2023-06-28 22:41:23,340 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,340 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,340 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/folder_workflow/variables/time
+
+2023-06-28 22:41:23,341 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,341 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,341 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/folder_workflow/variables/comments
+
+2023-06-28 22:41:23,341 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,342 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,342 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/folder_workflow/variables/actor
+
+2023-06-28 22:41:23,342 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,342 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,343 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/folder_workflow/variables/review_history
+
+2023-06-28 22:41:23,344 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,344 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,344 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_folder_workflow
+
+2023-06-28 22:41:23,345 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,345 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,345 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_folder_workflow/states/internal
+
+2023-06-28 22:41:23,346 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,346 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,346 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_folder_workflow/states/private
+
+2023-06-28 22:41:23,346 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,346 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,347 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_folder_workflow/transitions/hide
+
+2023-06-28 22:41:23,347 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,347 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,347 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_folder_workflow/transitions/show_internally
+
+2023-06-28 22:41:23,348 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,348 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,348 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_folder_workflow/variables/action
+
+2023-06-28 22:41:23,348 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,348 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,348 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_folder_workflow/variables/time
+
+2023-06-28 22:41:23,349 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,349 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,349 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_folder_workflow/variables/comments
+
+2023-06-28 22:41:23,349 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,349 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,349 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_folder_workflow/variables/actor
+
+2023-06-28 22:41:23,350 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,350 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,350 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_folder_workflow/variables/review_history
+
+2023-06-28 22:41:23,351 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,351 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,351 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow
+
+2023-06-28 22:41:23,351 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,352 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,352 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/states/internally_published
+
+2023-06-28 22:41:23,353 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,353 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,353 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/states/internal
+
+2023-06-28 22:41:23,353 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,354 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,354 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/states/private
+
+2023-06-28 22:41:23,354 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,354 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,355 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/states/pending
+
+2023-06-28 22:41:23,355 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,355 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,355 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/states/external
+
+2023-06-28 22:41:23,356 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,356 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,357 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/transitions/hide
+
+2023-06-28 22:41:23,357 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,357 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,357 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/transitions/submit
+
+2023-06-28 22:41:23,363 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   -- Set savepoint at object # 200
+
+2023-06-28 22:41:23,364 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,364 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,364 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/transitions/show_internally
+
+2023-06-28 22:41:23,365 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,365 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,365 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/transitions/publish_internally
+
+2023-06-28 22:41:23,365 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,366 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,366 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/transitions/reject
+
+2023-06-28 22:41:23,366 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,366 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,367 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/transitions/retract
+
+2023-06-28 22:41:23,367 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,367 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,367 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/transitions/publish_externally
+
+2023-06-28 22:41:23,368 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,368 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,368 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/variables/action
+
+2023-06-28 22:41:23,369 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,369 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,369 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/variables/time
+
+2023-06-28 22:41:23,369 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,369 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,370 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/variables/comments
+
+2023-06-28 22:41:23,370 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,370 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,370 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/variables/actor
+
+2023-06-28 22:41:23,371 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,371 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,371 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/variables/review_history
+
+2023-06-28 22:41:23,372 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,372 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,372 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/intranet_workflow/worklists/reviewer_queue
+
+2023-06-28 22:41:23,372 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,372 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,372 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/one_state_workflow
+
+2023-06-28 22:41:23,372 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,373 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,373 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/one_state_workflow/states/published
+
+2023-06-28 22:41:23,373 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,373 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,374 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/one_state_workflow/variables/action
+
+2023-06-28 22:41:23,374 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,374 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,374 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/one_state_workflow/variables/time
+
+2023-06-28 22:41:23,374 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,374 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,374 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/one_state_workflow/variables/comments
+
+2023-06-28 22:41:23,375 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,375 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,375 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/one_state_workflow/variables/actor
+
+2023-06-28 22:41:23,375 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,375 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,376 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/one_state_workflow/variables/review_history
+
+2023-06-28 22:41:23,376 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,376 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,376 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/plone_workflow
+
+2023-06-28 22:41:23,376 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,376 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,376 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/plone_workflow/states/visible
+
+2023-06-28 22:41:23,377 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,377 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,377 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/plone_workflow/states/private
+
+2023-06-28 22:41:23,377 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,378 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,378 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/plone_workflow/states/pending
+
+2023-06-28 22:41:23,378 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,378 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,378 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/plone_workflow/states/published
+
+2023-06-28 22:41:23,378 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,378 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,378 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/plone_workflow/transitions/hide
+
+2023-06-28 22:41:23,379 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,379 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,379 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/plone_workflow/transitions/show
+
+2023-06-28 22:41:23,379 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,380 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,380 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/plone_workflow/transitions/submit
+
+2023-06-28 22:41:23,380 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,380 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,380 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/plone_workflow/transitions/publish
+
+2023-06-28 22:41:23,380 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,380 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,380 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/plone_workflow/transitions/reject
+
+2023-06-28 22:41:23,381 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,381 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,381 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/plone_workflow/transitions/retract
+
+2023-06-28 22:41:23,381 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,382 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,382 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/plone_workflow/variables/action
+
+2023-06-28 22:41:23,382 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,382 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,382 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/plone_workflow/variables/time
+
+2023-06-28 22:41:23,382 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,382 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,382 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/plone_workflow/variables/comments
+
+2023-06-28 22:41:23,382 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,383 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,383 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/plone_workflow/variables/actor
+
+2023-06-28 22:41:23,383 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,383 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,383 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/plone_workflow/variables/review_history
+
+2023-06-28 22:41:23,384 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,384 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,384 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/plone_workflow/worklists/reviewer_queue
+
+2023-06-28 22:41:23,385 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,386 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,386 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/simple_publication_workflow
+
+2023-06-28 22:41:23,386 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,387 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,387 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/simple_publication_workflow/states/private
+
+2023-06-28 22:41:23,387 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,387 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,388 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/simple_publication_workflow/states/pending
+
+2023-06-28 22:41:23,388 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,388 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,388 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/simple_publication_workflow/states/published
+
+2023-06-28 22:41:23,388 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,388 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,388 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/simple_publication_workflow/transitions/retract
+
+2023-06-28 22:41:23,389 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,389 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,389 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/simple_publication_workflow/transitions/submit
+
+2023-06-28 22:41:23,390 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,390 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,390 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/simple_publication_workflow/transitions/publish
+
+2023-06-28 22:41:23,390 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,390 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,390 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/simple_publication_workflow/transitions/reject
+
+2023-06-28 22:41:23,393 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,393 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,393 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/simple_publication_workflow/variables/action
+
+2023-06-28 22:41:23,394 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,394 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,394 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/simple_publication_workflow/variables/time
+
+2023-06-28 22:41:23,394 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,394 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,396 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/simple_publication_workflow/variables/comments
+
+2023-06-28 22:41:23,400 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,401 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,403 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/simple_publication_workflow/variables/actor
+
+2023-06-28 22:41:23,404 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,407 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,411 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/simple_publication_workflow/variables/review_history
+
+2023-06-28 22:41:23,414 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,415 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,417 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_workflow/simple_publication_workflow/worklists/reviewer_queue
+
+2023-06-28 22:41:23,417 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,418 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,418 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/translation_service
+
+2023-06-28 22:41:23,419 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,419 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,419 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_form_controller
+
+2023-06-28 22:41:23,419 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,420 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,420 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/mimetypes_registry
+
+2023-06-28 22:41:23,420 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,420 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,420 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms
+
+2023-06-28 22:41:23,420 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,421 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,421 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/st_to_html
+
+2023-06-28 22:41:23,421 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,421 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,421 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/rest_to_html
+
+2023-06-28 22:41:23,422 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,422 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,422 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/word_to_html
+
+2023-06-28 22:41:23,422 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,422 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,422 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/html_body
+
+2023-06-28 22:41:23,422 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,422 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,423 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/html_to_text
+
+2023-06-28 22:41:23,423 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,423 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,423 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/text_to_html
+
+2023-06-28 22:41:23,424 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,424 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,424 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/text-pre_to_html
+
+2023-06-28 22:41:23,424 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,424 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,424 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/pdf_to_html
+
+2023-06-28 22:41:23,424 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,425 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,425 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/pdf_to_text
+
+2023-06-28 22:41:23,425 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,425 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,426 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/image_to_png
+
+2023-06-28 22:41:23,426 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,426 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,426 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/image_to_gif
+
+2023-06-28 22:41:23,426 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,426 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,426 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/image_to_jpeg
+
+2023-06-28 22:41:23,426 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,426 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,427 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/image_to_pcx
+
+2023-06-28 22:41:23,427 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,427 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,427 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/image_to_ppm
+
+2023-06-28 22:41:23,428 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,428 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,428 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/image_to_tiff
+
+2023-06-28 22:41:23,428 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,428 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,428 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/image_to_bmp
+
+2023-06-28 22:41:23,428 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,429 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,429 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/python_to_html
+
+2023-06-28 22:41:23,429 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,430 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,430 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/rest_to_text
+
+2023-06-28 22:41:23,430 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,430 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,431 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/textile_to_html
+
+2023-06-28 22:41:23,432 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,432 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,433 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/web_intelligent_plain_text_to_html
+
+2023-06-28 22:41:23,433 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,433 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,433 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/html_to_web_intelligent_plain_text
+
+2023-06-28 22:41:23,434 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,434 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,434 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/safe_html
+
+2023-06-28 22:41:23,434 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,434 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,434 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_transforms/markdown_to_html
+
+2023-06-28 22:41:23,435 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,435 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,442 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_archivist
+
+2023-06-28 22:41:23,446 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,450 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,450 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_historiesstorage
+
+2023-06-28 22:41:23,452 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,453 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,453 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_historyidhandler
+
+2023-06-28 22:41:23,453 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,454 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,454 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_modifier
+
+2023-06-28 22:41:23,455 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,458 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,458 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_modifier/OMInsideChildrensModifier
+
+2023-06-28 22:41:23,460 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,461 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,463 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_modifier/OMOutsideChildrensModifier
+
+2023-06-28 22:41:23,475 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   -- Set savepoint at object # 300
+
+2023-06-28 22:41:23,475 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,475 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,476 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_modifier/RetainUIDs
+
+2023-06-28 22:41:23,476 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,476 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,476 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_modifier/RetainATRefs
+
+2023-06-28 22:41:23,476 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,476 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,476 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_modifier/NotRetainATRefs
+
+2023-06-28 22:41:23,477 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,477 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,477 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_modifier/RetainWorkflowStateAndHistory
+
+2023-06-28 22:41:23,477 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,477 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,477 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_modifier/RetainPermissionsSettings
+
+2023-06-28 22:41:23,477 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,478 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,478 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_modifier/SaveFileDataInFileTypeByReference
+
+2023-06-28 22:41:23,478 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,478 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,478 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_modifier/SillyDemoRetrieveModifier
+
+2023-06-28 22:41:23,478 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,478 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,479 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_modifier/SkipParentPointers
+
+2023-06-28 22:41:23,480 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,480 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,480 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_modifier/SkipRegistryBasesPointers
+
+2023-06-28 22:41:23,481 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,482 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,482 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_modifier/AbortVersioningOfLargeFilesAndImages
+
+2023-06-28 22:41:23,482 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,482 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,482 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_modifier/SkipVersioningOfLargeFilesAndImages
+
+2023-06-28 22:41:23,483 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,484 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,484 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_modifier/SkipBlobs
+
+2023-06-28 22:41:23,484 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,485 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,485 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_modifier/CloneBlobs
+
+2023-06-28 22:41:23,485 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,486 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,490 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_modifier/Skip_z3c_blobfile
+
+2023-06-28 22:41:23,491 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,494 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,494 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_purgepolicy
+
+2023-06-28 22:41:23,495 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,496 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,497 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_referencefactories
+
+2023-06-28 22:41:23,498 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,499 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,499 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/portal_repository
+
+2023-06-28 22:41:23,499 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,500 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,500 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /Plone/acl_users
+
+2023-06-28 22:41:23,501 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Translated admin to admin
+
+2023-06-28 22:41:23,501 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2]   Assigned roles ['Owner'] to admin
+
+2023-06-28 22:41:23,501 INFO    [PluggableAuthService.upgrade.upgradeLocalRoleAssignmentsFromRoot:40][waitress-2] Local Roles map changed for /acl_users
+
+2023-06-28 22:41:23,584 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.resource:default
+2023-06-28 22:41:23,741 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:23,744 INFO    [GenericSetup.toolset:100][waitress-2] Toolset imported.
+2023-06-28 22:41:23,745 INFO    [GenericSetup.componentregistry:100][waitress-2] Adapters registered.
+2023-06-28 22:41:23,746 INFO    [GenericSetup.componentregistry:100][waitress-2] Utilities registered.
+2023-06-28 22:41:23,750 INFO    [GenericSetup.plone.app.registry:100][waitress-2] Cannot find registry
+2023-06-28 22:41:23,750 INFO    [GenericSetup.bundles:100][waitress-2] Cannot find registry
+2023-06-28 22:41:23,803 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.app.z3cform:default
+2023-06-28 22:41:23,862 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:23,866 INFO    [GenericSetup.plone.app.registry:100][waitress-2] Cannot find registry
+2023-06-28 22:41:23,867 INFO    [GenericSetup.bundles:100][waitress-2] Cannot find registry
+2023-06-28 22:41:23,894 INFO    [GenericSetup.browserlayer:100][waitress-2] Browser layers imported
+2023-06-28 22:41:23,979 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.app.registry:default
+2023-06-28 22:41:23,996 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:24,021 INFO    [GenericSetup.toolset:100][waitress-2] Toolset imported.
+2023-06-28 22:41:24,024 INFO    [GenericSetup.componentregistry:100][waitress-2] Adapters registered.
+2023-06-28 22:41:24,025 INFO    [GenericSetup.componentregistry:100][waitress-2] Utilities registered.
+2023-06-28 22:41:24,031 INFO    [GenericSetup.controlpanel:100][waitress-2] Control panel imported.
+2023-06-28 22:41:24,105 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.app.discussion:default
+2023-06-28 22:41:24,144 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:24,149 INFO    [GenericSetup.actions:100][waitress-2] Actions tool imported.
+2023-06-28 22:41:24,151 INFO    [GenericSetup.controlpanel:100][waitress-2] Control panel imported.
+2023-06-28 22:41:24,153 INFO    [GenericSetup.types:100][waitress-2] Types tool imported.
+2023-06-28 22:41:24,155 INFO    [GenericSetup.types:100][waitress-2] 'Discussion Item' type info imported.
+2023-06-28 22:41:24,167 INFO    [Products.CMFPlone.resources.browser.combine:121][waitress-2] Wrote combined JS bundle "default".
+2023-06-28 22:41:24,167 INFO    [Products.CMFPlone.resources.browser.combine:121][waitress-2] Wrote combined JS bundle "logged-in".
+2023-06-28 22:41:24,168 INFO    [Products.CMFPlone.resources.browser.combine:156][waitress-2] Wrote combined CSS bundle "default".
+2023-06-28 22:41:24,168 INFO    [Products.CMFPlone.resources.browser.combine:156][waitress-2] Wrote combined CSS bundle "logged-in".
+2023-06-28 22:41:24,168 INFO    [Products.CMFPlone.resources.browser.combine:184][waitress-2] Finished bundle compilation.
+2023-06-28 22:41:24,170 INFO    [GenericSetup.browserlayer:100][waitress-2] Browser layers imported
+2023-06-28 22:41:24,173 INFO    [GenericSetup.catalog:100][waitress-2] Catalog imported.
+2023-06-28 22:41:24,176 INFO    [GenericSetup.workflow:100][waitress-2] Workflow tool imported.
+2023-06-28 22:41:24,224 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.app.intid:default
+2023-06-28 22:41:24,257 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:24,301 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.app.relationfield:default
+2023-06-28 22:41:24,331 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:24,381 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.app.linkintegrity:default
+2023-06-28 22:41:24,421 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:24,430 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.app.theming:default
+2023-06-28 22:41:24,466 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:24,492 INFO    [GenericSetup.controlpanel:100][waitress-2] Control panel imported.
+2023-06-28 22:41:24,497 INFO    [GenericSetup.browserlayer:100][waitress-2] Browser layers imported
+2023-06-28 22:41:24,539 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.app.users:default
+2023-06-28 22:41:24,556 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:24,593 INFO    [plone.app.users.setuphandlers:22][waitress-2] Imported schema
+2023-06-28 22:41:24,593 INFO    [plone.app.users.setuphandlers:22][waitress-2] Imported schema
+2023-06-28 22:41:24,603 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.outputfilters:default
+2023-06-28 22:41:24,638 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:24,670 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.app.querystring:default
+2023-06-28 22:41:24,713 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:24,968 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.portlet.collection:default
+2023-06-28 22:41:24,991 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:25,006 INFO    [GenericSetup.portlets:100][waitress-2] Portlets imported
+2023-06-28 22:41:25,053 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.portlet.static:default
+2023-06-28 22:41:25,097 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:25,105 INFO    [GenericSetup.portlets:100][waitress-2] Portlets imported
+2023-06-28 22:41:25,168 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.keyring:default
+2023-06-28 22:41:25,225 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:25,234 INFO    [GenericSetup.componentregistry:100][waitress-2] Utilities registered.
+2023-06-28 22:41:25,240 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.protect:default
+2023-06-28 22:41:25,284 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:25,292 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.staticresources:last_compilation
+2023-06-28 22:41:25,321 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:25,553 INFO    [Products.CMFPlone.resources.browser.combine:121][waitress-2] Wrote combined JS bundle "default".
+2023-06-28 22:41:25,554 INFO    [Products.CMFPlone.resources.browser.combine:121][waitress-2] Wrote combined JS bundle "logged-in".
+2023-06-28 22:41:25,556 INFO    [Products.CMFPlone.resources.browser.combine:156][waitress-2] Wrote combined CSS bundle "default".
+2023-06-28 22:41:25,557 INFO    [Products.CMFPlone.resources.browser.combine:156][waitress-2] Wrote combined CSS bundle "logged-in".
+2023-06-28 22:41:25,558 INFO    [Products.CMFPlone.resources.browser.combine:184][waitress-2] Finished bundle compilation.
+2023-06-28 22:41:25,565 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.staticresources:default
+2023-06-28 22:41:25,600 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:26,395 INFO    [Products.CMFPlone.resources.browser.combine:121][waitress-2] Wrote combined JS bundle "default".
+2023-06-28 22:41:26,454 INFO    [Products.CMFPlone.resources.browser.combine:121][waitress-2] Wrote combined JS bundle "logged-in".
+2023-06-28 22:41:26,515 INFO    [Products.CMFPlone.resources.browser.combine:156][waitress-2] Wrote combined CSS bundle "default".
+2023-06-28 22:41:26,552 INFO    [Products.CMFPlone.resources.browser.combine:156][waitress-2] Wrote combined CSS bundle "logged-in".
+2023-06-28 22:41:26,552 INFO    [Products.CMFPlone.resources.browser.combine:184][waitress-2] Finished bundle compilation.
+2023-06-28 22:41:26,558 INFO    [Products.GenericSetup.tool:1469][waitress-2] Applying main profile profile-Products.CMFPlone:dependencies
+2023-06-28 22:41:26,590 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:26,611 INFO    [GenericSetup.controlpanel:100][waitress-2] Control panel imported.
+2023-06-28 22:41:26,675 INFO    [GenericSetup.portlets:100][waitress-2] Portlets imported
+2023-06-28 22:41:27,441 INFO    [Products.GenericSetup.tool:1430][waitress-2] Importing profile profile-plone.app.contenttypes:plone-content with dependency strategy upgrade.
+2023-06-28 22:41:27,441 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.z3cform:default. Profile stays at version u'3'.
+2023-06-28 22:41:27,442 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.app.dexterity:default
+2023-06-28 22:41:27,472 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:27,484 INFO    [GenericSetup.controlpanel:100][waitress-2] Control panel imported.
+2023-06-28 22:41:27,493 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.registry:default. Profile stays at version u'1.0a1'.
+2023-06-28 22:41:27,494 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.formwidget.recurrence:default
+2023-06-28 22:41:27,556 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:27,578 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.app.event:default
+2023-06-28 22:41:27,658 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:27,685 INFO    [GenericSetup.actions:100][waitress-2] Actions tool imported.
+2023-06-28 22:41:27,689 INFO    [GenericSetup.controlpanel:100][waitress-2] Control panel imported.
+2023-06-28 22:41:27,693 INFO    [GenericSetup.types:100][waitress-2] Types tool imported.
+2023-06-28 22:41:27,706 INFO    [GenericSetup.types:100][waitress-2] 'Plone Site' type info imported.
+2023-06-28 22:41:27,708 INFO    [GenericSetup.types:100][waitress-2] 'Folder' type info imported.
+2023-06-28 22:41:27,709 INFO    [GenericSetup.types:100][waitress-2] 'Collection' type info imported.
+2023-06-28 22:41:27,719 INFO    [plone.app.event.setuphandlers:55][waitress-2] Old catalog DateIndex start deleted.
+2023-06-28 22:41:27,719 INFO    [plone.app.event.setuphandlers:55][waitress-2] Old catalog DateIndex start deleted.
+2023-06-28 22:41:27,719 INFO    [plone.app.event.setuphandlers:60][waitress-2] Catalog DateRecurringIndex start created.
+2023-06-28 22:41:27,719 INFO    [plone.app.event.setuphandlers:60][waitress-2] Catalog DateRecurringIndex start created.
+2023-06-28 22:41:27,720 INFO    [plone.app.event.setuphandlers:68][waitress-2] Catalog metadata column start already exists.
+2023-06-28 22:41:27,720 INFO    [plone.app.event.setuphandlers:68][waitress-2] Catalog metadata column start already exists.
+2023-06-28 22:41:27,720 INFO    [plone.app.event.setuphandlers:55][waitress-2] Old catalog DateIndex end deleted.
+2023-06-28 22:41:27,720 INFO    [plone.app.event.setuphandlers:55][waitress-2] Old catalog DateIndex end deleted.
+2023-06-28 22:41:27,720 INFO    [plone.app.event.setuphandlers:60][waitress-2] Catalog DateRecurringIndex end created.
+2023-06-28 22:41:27,720 INFO    [plone.app.event.setuphandlers:60][waitress-2] Catalog DateRecurringIndex end created.
+2023-06-28 22:41:27,720 INFO    [plone.app.event.setuphandlers:68][waitress-2] Catalog metadata column end already exists.
+2023-06-28 22:41:27,720 INFO    [plone.app.event.setuphandlers:68][waitress-2] Catalog metadata column end already exists.
+2023-06-28 22:41:27,721 INFO    [plone.app.event.setuphandlers:63][waitress-2] Catalog FieldIndex sync_uid created.
+2023-06-28 22:41:27,721 INFO    [plone.app.event.setuphandlers:63][waitress-2] Catalog FieldIndex sync_uid created.
+2023-06-28 22:41:27,721 INFO    [plone.app.event.setuphandlers:66][waitress-2] Catalog metadata column sync_uid created.
+2023-06-28 22:41:27,721 INFO    [plone.app.event.setuphandlers:66][waitress-2] Catalog metadata column sync_uid created.
+2023-06-28 22:41:27,840 INFO    [Products.CMFPlone.resources.browser.combine:121][waitress-2] Wrote combined JS bundle "default".
+2023-06-28 22:41:27,878 INFO    [Products.CMFPlone.resources.browser.combine:121][waitress-2] Wrote combined JS bundle "logged-in".
+2023-06-28 22:41:27,880 INFO    [Products.CMFPlone.resources.browser.combine:156][waitress-2] Wrote combined CSS bundle "default".
+2023-06-28 22:41:27,912 INFO    [Products.CMFPlone.resources.browser.combine:156][waitress-2] Wrote combined CSS bundle "logged-in".
+2023-06-28 22:41:27,912 INFO    [Products.CMFPlone.resources.browser.combine:184][waitress-2] Finished bundle compilation.
+2023-06-28 22:41:27,916 INFO    [GenericSetup.portlets:100][waitress-2] Portlets imported
+2023-06-28 22:41:27,918 INFO    [GenericSetup.browserlayer:100][waitress-2] Browser layers imported
+2023-06-28 22:41:28,080 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.querystring:default. Profile stays at version u'14'.
+2023-06-28 22:41:28,080 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.intid:default. Profile stays at version u'1'.
+2023-06-28 22:41:28,080 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.relationfield:default. Profile stays at version u'1'.
+2023-06-28 22:41:28,081 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.app.versioningbehavior:default
+2023-06-28 22:41:28,109 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:28,123 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.app.contenttypes:default
+2023-06-28 22:41:28,142 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:28,145 INFO    [GenericSetup.:100][waitress-2] DiffTool settings imported.
+2023-06-28 22:41:28,160 INFO    [GenericSetup.types:100][waitress-2] Types tool imported.
+2023-06-28 22:41:28,181 INFO    [GenericSetup.types:100][waitress-2] 'Plone Site' type info imported.
+2023-06-28 22:41:28,222 INFO    [GenericSetup.types:100][waitress-2] 'Collection' type info imported.
+2023-06-28 22:41:28,229 INFO    [GenericSetup.types:100][waitress-2] 'Document' type info imported.
+2023-06-28 22:41:28,242 INFO    [GenericSetup.types:100][waitress-2] 'Folder' type info imported.
+2023-06-28 22:41:28,250 INFO    [GenericSetup.types:100][waitress-2] 'Link' type info imported.
+2023-06-28 22:41:28,265 INFO    [GenericSetup.types:100][waitress-2] 'File' type info imported.
+2023-06-28 22:41:28,277 INFO    [GenericSetup.types:100][waitress-2] 'Image' type info imported.
+2023-06-28 22:41:28,285 INFO    [GenericSetup.types:100][waitress-2] 'News Item' type info imported.
+2023-06-28 22:41:28,299 INFO    [GenericSetup.types:100][waitress-2] 'Event' type info imported.
+2023-06-28 22:41:28,304 INFO    [GenericSetup.browserlayer:100][waitress-2] Browser layers imported
+2023-06-28 22:41:28,306 INFO    [GenericSetup.:100][waitress-2] DiffTool settings imported.
+2023-06-28 22:41:28,312 INFO    [plone.app.contenttypes upgrade:155][waitress-2] Start updating view names...
+2023-06-28 22:41:28,312 INFO    [plone.app.contenttypes upgrade:155][waitress-2] Start updating view names...
+2023-06-28 22:41:28,312 INFO    [plone.app.contenttypes upgrade:224][waitress-2] Updating view names for Plone Site
+2023-06-28 22:41:28,312 INFO    [plone.app.contenttypes upgrade:224][waitress-2] Updating view names for Plone Site
+2023-06-28 22:41:28,499 INFO    [Products.GenericSetup.tool:1469][waitress-2] Applying main profile profile-plone.app.contenttypes:plone-content
+2023-06-28 22:41:28,512 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:28,517 INFO    [GenericSetup.portlets:100][waitress-2] Portlets imported
+2023-06-28 22:41:28,950 INFO    [Products.GenericSetup.tool:1430][waitress-2] Importing profile profile-plonetheme.barceloneta:default with dependency strategy upgrade.
+2023-06-28 22:41:28,950 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.z3cform:default. Profile stays at version u'3'.
+2023-06-28 22:41:28,950 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.registry:default. Profile stays at version u'1.0a1'.
+2023-06-28 22:41:28,951 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.theming:default. Profile stays at version u'1002'.
+2023-06-28 22:41:28,951 INFO    [Products.GenericSetup.tool:1469][waitress-2] Applying main profile profile-plonetheme.barceloneta:default
+2023-06-28 22:41:28,972 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:28,992 INFO    [GenericSetup.skins:100][waitress-2] Skins tool imported.
+2023-06-28 22:41:29,034 INFO    [GenericSetup.browserlayer:100][waitress-2] Browser layers imported
+2023-06-28 22:41:29,100 INFO    [plone.app.theming.policy:135][waitress-2] invalidating cache across all threads and processes
+2023-06-28 22:41:29,100 INFO    [plone.app.theming.policy:135][waitress-2] invalidating cache across all threads and processes
+2023-06-28 22:41:29,101 INFO    [plone.app.theming.policy:135][waitress-2] invalidating cache across all threads and processes
+2023-06-28 22:41:29,101 INFO    [plone.app.theming.policy:135][waitress-2] invalidating cache across all threads and processes
+2023-06-28 22:41:29,102 INFO    [plone.app.theming.policy:135][waitress-2] invalidating cache across all threads and processes
+2023-06-28 22:41:29,102 INFO    [plone.app.theming.policy:135][waitress-2] invalidating cache across all threads and processes
+2023-06-28 22:41:29,103 INFO    [plone.app.theming.policy:135][waitress-2] invalidating cache across all threads and processes
+2023-06-28 22:41:29,103 INFO    [plone.app.theming.policy:135][waitress-2] invalidating cache across all threads and processes
+2023-06-28 22:41:29,103 INFO    [plone.app.theming.policy:135][waitress-2] invalidating cache across all threads and processes
+2023-06-28 22:41:29,103 INFO    [plone.app.theming.policy:135][waitress-2] invalidating cache across all threads and processes
+2023-06-28 22:41:29,106 INFO    [GenericSetup.plone.app.theming.exportimport:100][waitress-2] Theme barceloneta applied
+2023-06-28 22:41:29,106 INFO    [plone.app.theming.policy:135][waitress-2] invalidating cache across all threads and processes
+2023-06-28 22:41:29,106 INFO    [plone.app.theming.policy:135][waitress-2] invalidating cache across all threads and processes
+2023-06-28 22:41:29,107 INFO    [GenericSetup.plone.app.theming.exportimport:100][waitress-2] Theme enabled
+2023-06-28 22:41:29,428 INFO    [Products.GenericSetup.tool:1430][waitress-2] Importing profile profile-plone.app.caching:default with dependency strategy upgrade.
+2023-06-28 22:41:29,428 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.z3cform:default. Profile stays at version u'3'.
+2023-06-28 22:41:29,428 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.registry:default. Profile stays at version u'1.0a1'.
+2023-06-28 22:41:29,428 INFO    [Products.GenericSetup.tool:1469][waitress-2] Applying main profile profile-plone.app.caching:default
+2023-06-28 22:41:29,471 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 22:41:29,513 INFO    [GenericSetup.controlpanel:100][waitress-2] Control panel imported.
+2023-06-28 22:41:33,298 WARNING [waitress.queue:117][MainThread] Task queue depth is 1
+2023-06-28 22:41:33,300 WARNING [waitress.queue:117][MainThread] Task queue depth is 2
+2023-06-28 22:41:33,337 WARNING [waitress.queue:117][MainThread] Task queue depth is 2
+2023-06-28 22:41:33,499 WARNING [waitress.queue:117][MainThread] Task queue depth is 1
+2023-06-28 22:56:35,222 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:56:37,764 WARNING [ZODB.FileStorage:412][MainThread] Ignoring index for /home/kali/plone5_12_env/zinstance/var/filestorage/Data.fs
+2023-06-28 22:56:49,350 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:56:55,961 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:57:03,489 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:57:11,561 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:57:20,280 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:57:29,955 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:57:40,561 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:57:52,140 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:58:02,252 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:58:07,988 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:58:14,497 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:58:22,379 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:58:30,846 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:58:40,409 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:58:50,694 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:59:01,968 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:59:14,771 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 22:59:28,361 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 23:01:49,397 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 23:01:55,583 INFO    [Zope:45][MainThread] Ready to handle requests
+2023-06-28 23:03:23,058 INFO    [chameleon.config:38][MainThread] directory cache: /home/kali/plone5_12_env/zinstance/var/cache.
+2023-06-28 23:03:27,576 WARNING [Init:89][MainThread] Class plone.app.drafts.storage.Storage has a security declaration for nonexistent method 'drafts'
+2023-06-28 23:03:27,848 INFO    [Zope:45][MainThread] Ready to handle requests
+2023-06-28 23:03:41,408 INFO    [Products.GenericSetup.tool:1430][waitress-2] Importing profile profile-plone.app.mosaic:default with dependency strategy upgrade.
+2023-06-28 23:03:41,408 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.z3cform:default. Profile stays at version u'3'.
+2023-06-28 23:03:41,409 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.dexterity:default. Profile stays at version u'2005'.
+2023-06-28 23:03:41,409 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.registry:default. Profile stays at version u'1.0a1'.
+2023-06-28 23:03:41,409 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.formwidget.recurrence:default. Profile stays at version u'3'.
+2023-06-28 23:03:41,410 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.event:default. Profile stays at version u'15'.
+2023-06-28 23:03:41,410 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.querystring:default. Profile stays at version u'14'.
+2023-06-28 23:03:41,411 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.intid:default. Profile stays at version u'1'.
+2023-06-28 23:03:41,411 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.relationfield:default. Profile stays at version u'1'.
+2023-06-28 23:03:41,411 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.versioningbehavior:default. Profile stays at version u'1001'.
+2023-06-28 23:03:41,412 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.app.contenttypes:default. Profile stays at version u'1106'.
+2023-06-28 23:03:41,412 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.app.drafts:default
+2023-06-28 23:03:41,686 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 23:03:41,687 INFO    [GenericSetup.toolset:100][waitress-2] Toolset imported.
+2023-06-28 23:03:41,688 INFO    [GenericSetup.componentregistry:100][waitress-2] Adapters registered.
+2023-06-28 23:03:41,688 INFO    [GenericSetup.componentregistry:100][waitress-2] Utilities registered.
+2023-06-28 23:03:41,848 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.app.tiles:default
+2023-06-28 23:03:41,900 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 23:03:41,908 INFO    [GenericSetup.browserlayer:100][waitress-2] Browser layers imported
+2023-06-28 23:03:42,035 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.app.standardtiles:default
+2023-06-28 23:03:42,058 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 23:03:42,067 INFO    [GenericSetup.portlets:100][waitress-2] Portlets imported
+2023-06-28 23:03:42,188 INFO    [Products.GenericSetup.tool:1197][waitress-2] No upgrades available for profile profile-plone.resource:default. Profile stays at version u'1'.
+2023-06-28 23:03:42,188 INFO    [Products.GenericSetup.tool:1479][waitress-2] Applying profile profile-plone.app.blocks:default
+2023-06-28 23:03:42,193 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 23:03:42,198 INFO    [GenericSetup.browserlayer:100][waitress-2] Browser layers imported
+2023-06-28 23:03:42,326 INFO    [Products.GenericSetup.tool:1469][waitress-2] Applying main profile profile-plone.app.mosaic:default
+2023-06-28 23:03:42,343 INFO    [GenericSetup.rolemap:100][waitress-2] Role / permission map imported.
+2023-06-28 23:03:42,344 INFO    [GenericSetup.skins:100][waitress-2] Skins tool imported.
+2023-06-28 23:03:42,346 INFO    [GenericSetup.controlpanel:100][waitress-2] Control panel imported.
+2023-06-28 23:03:42,346 INFO    [GenericSetup.types:100][waitress-2] Types tool imported.
+2023-06-28 23:03:42,347 INFO    [GenericSetup.types:100][waitress-2] 'Document' type info imported.
+2023-06-28 23:03:42,348 INFO    [GenericSetup.types:100][waitress-2] 'Folder' type info imported.
+2023-06-28 23:03:42,348 INFO    [GenericSetup.types:100][waitress-2] 'News Item' type info imported.
+2023-06-28 23:03:42,349 INFO    [GenericSetup.types:100][waitress-2] 'Event' type info imported.
+2023-06-28 23:03:42,571 INFO    [Products.CMFPlone.resources.browser.combine:121][waitress-2] Wrote combined JS bundle "default".
+2023-06-28 23:03:42,578 INFO    [Products.CMFPlone.resources.browser.combine:121][waitress-2] Wrote combined JS bundle "logged-in".
+2023-06-28 23:03:42,582 INFO    [Products.CMFPlone.resources.browser.combine:156][waitress-2] Wrote combined CSS bundle "default".
+2023-06-28 23:03:42,592 INFO    [Products.CMFPlone.resources.browser.combine:156][waitress-2] Wrote combined CSS bundle "logged-in".
+2023-06-28 23:03:42,592 INFO    [Products.CMFPlone.resources.browser.combine:184][waitress-2] Finished bundle compilation.
+2023-06-28 23:03:42,593 INFO    [GenericSetup.browserlayer:100][waitress-2] Browser layers imported
+2023-06-28 23:03:42,594 INFO    [GenericSetup.catalog:100][waitress-2] Catalog imported.
+2023-06-28 23:03:43,050 WARNING [waitress.queue:117][MainThread] Task queue depth is 1
+2023-06-28 23:03:43,051 WARNING [waitress.queue:117][MainThread] Task queue depth is 2
+2023-06-28 23:04:05,968 WARNING [waitress.queue:117][MainThread] Task queue depth is 1
+2023-06-28 23:05:16,953 WARNING [waitress.queue:117][MainThread] Task queue depth is 1
+2023-06-28 23:05:16,953 WARNING [waitress.queue:117][MainThread] Task queue depth is 2
+2023-06-28 23:09:14,550 WARNING [waitress.queue:117][MainThread] Task queue depth is 1
+2023-06-28 23:09:14,550 WARNING [waitress.queue:117][MainThread] Task queue depth is 2

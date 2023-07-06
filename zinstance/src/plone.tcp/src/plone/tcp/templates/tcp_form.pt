@@ -1,0 +1,62 @@
+<metal:use-macro
+  metal:macro="plone"
+  define-macro="main">
+
+  <form action="tcp-form" method="POST">
+    <tal:block tal:repeat="field view/fields">
+      <tal:block tal:condition="not field.widget.ignoreRequest(view)"
+                 tal:content="field/missing_value"
+                 tal:define="name field/getName;
+                             value view/request/fields/name;
+                             widget field.widget;
+                             required field.required;
+                             error view/error_for(field)"
+                 tal:define="hidden_string widget is widget_hidden and
+                                     'hidden' or ''"
+                 tal:attributes="name name;
+                                 id field/id;
+                                 class string:field string:${hidden_string};
+                                 required required;
+                                 value python:value or widget/multiSelected;
+                                 autofocus widget/isFocus;
+                                 maxlength widget/maxLength;
+                                 tabindex widget/tabindex;
+                                 size widget/size;
+                                 checked widget/checked;
+                                 type widget/inputType;
+                                 disabled field/readonly;
+                                 autofocus string:${widget/mode} is 'widget' and
+                                           field/autofocus_allowed or
+                                           string:False;
+                                 tal:attributes-1 string:pattern python:widget/getPattern;
+                                 tal:attributes-2 string:title widget/title;
+                                 tal:attributes-3 string:description widget/description">
+
+        <tal:div tal:condition="field.widget.mode is 'hidden'"
+                 class="hidden">
+          <input tal:attributes="name name;
+                                 value python:value;
+                                 type 'hidden'">
+        </tal:div>
+
+        <tal:div tal:condition="hidden_string is not 'hidden'"
+                 tal:attributes="class widget_class widget/getCSSClass;
+                                 id field/id">
+          <label tal:attributes="for field/id;
+                                 class widget_class widget/getCSSClass">
+            ${field.title}
+          </label>
+          <div tal:replace="structure widget" />
+        </tal:div>
+
+        <tal:block tal:condition="error"
+                   tal:repeat="msg error">
+          <div tal:attributes="class string:message_type error/type"
+               tal:content="msg"></div>
+        </tal:block>
+
+      </tal:block>
+      <input type="submit" value="Submit">
+    </form>
+
+</metal:use-macro>

@@ -1,0 +1,16 @@
+Zope2
+plone.subrequest
+setuptools
+zope.annotation
+zope.browserpage
+zope.component
+zope.configuration
+zope.interface
+zope.publisher
+zope.schema
+zope.security
+zope.traversing
+
+[test]
+plone.rfc822
+plone.testing[z2,zca]

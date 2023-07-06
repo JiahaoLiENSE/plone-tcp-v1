@@ -1,0 +1,16 @@
+Acquisition
+DateTime
+Products.CMFCore
+ZODB
+Zope
+setuptools
+zope.annotation
+zope.component
+zope.i18nmessageid
+zope.interface
+zope.schema
+zope.viewlet
+
+[test]
+plone.app.contenttypes
+plone.app.testing

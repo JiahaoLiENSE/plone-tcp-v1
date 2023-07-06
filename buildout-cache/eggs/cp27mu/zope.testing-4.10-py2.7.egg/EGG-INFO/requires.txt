@@ -1,0 +1,11 @@
+setuptools
+
+[docs]
+mock
+repoze.sphinx.autointerface
+sphinx
+zope.exceptions
+zope.interface
+
+[test]
+zope.testrunner

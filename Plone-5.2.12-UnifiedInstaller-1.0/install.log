@@ -1,0 +1,35 @@
+Detailed installation log
+Starting at Tue Jun 27 05:55:50 PM EDT 2023
+Creating Python virtual environment.
+Virtualenv successfully created
+Installing Python requirements in virtual environment.
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Ignoring setuptools: markers 'python_version >= "3.0"' don't match your environment
+Ignoring zc.buildout: markers 'python_version >= "3.0"' don't match your environment
+Ignoring wheel: markers 'python_version >= "3.0"' don't match your environment
+Ignoring pywin32: markers 'platform_system == "Windows"' don't match your environment
+Ignoring certifi: markers 'platform_system == "Windows"' don't match your environment
+Ignoring ntfsutils: markers 'platform_system == "Windows" and python_version < "3.0"' don't match your environment
+Collecting setuptools==42.0.2
+  Downloading setuptools-42.0.2-py2.py3-none-any.whl (583 kB)
+Collecting zc.buildout==2.13.8
+  Downloading zc.buildout-2.13.8-py2.py3-none-any.whl (154 kB)
+Requirement already satisfied: wheel==0.37.1 in /home/kali/plone5_12_env/zinstance/lib/python2.7/site-packages (from -r https://dist.plone.org/release/5.2.12/requirements.txt (line 3)) (0.37.1)
+Installing collected packages: setuptools, zc.buildout
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 44.1.1
+    Uninstalling setuptools-44.1.1:
+      Successfully uninstalled setuptools-44.1.1
+Successfully installed setuptools-42.0.2 zc.buildout-2.13.8
+Create buildout: standalone
+Copying buildout skeleton to /home/kali/plone5_12_env/zinstance
+Building Zope/Plone; this takes a while...
+Buildout completed
+
+######################  Installation Complete  ######################
+
+Plone successfully installed at /home/kali/plone5_12_env
+See /home/kali/plone5_12_env/zinstance/README.html
+for startup instructions.
+
+Finished at Tue Jun 27 06:01:29 PM EDT 2023
